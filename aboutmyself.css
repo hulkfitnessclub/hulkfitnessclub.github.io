@@ -1,0 +1,17 @@
+h1{
+	font-family:forte;
+	font-weight:bold;
+	font-style:bold;
+	font-size:45px;
+	background-color:rgba(0,0,0,0.1);
+
+}
+
+body{
+	background:url('Desert.jpg') no-repeat;
+	background-size:cover;
+}
+
+p{
+	background-color:rgba(0,0,0,0.1);
+}

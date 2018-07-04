@@ -1,0 +1,133 @@
+img{
+	padding:100px 250px 100px 350px;
+}
+#container ul{
+	list-style:none;
+	padding-left:150px;
+	margin-top:-190px;
+	
+	
+}
+
+#container ul li{
+	background-color:rgba(128,128,128,0.5);
+	width:200px;
+	border:1px dotted white;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:17px;
+	position:relative;
+	
+}
+#container ul li:hover{
+	background-color:black;
+	
+}
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+#container ul ul{
+display: none;
+padding-left:0px;
+padding-top:0px;
+margin-top:0px;
+}
+
+#container ul li:hover > ul{
+display:block;
+}
+
+#container ul ul ul{
+margin-left:200px;
+margin-top:-50px;
+position:absolute;
+}
+
+body{
+	background:url('ert.jpg') no-repeat;
+	background-size:cover;
+}
+
+img{
+	padding-top:0px;
+	height:100px;
+	padding-left:0px;
+	width:150px;
+	
+}
+.search-box{
+	position:absolute;
+	top:37px;
+	left:160px;
+	transform:translate(-50%,-50%);
+	background:black;
+	height: 40px;
+	border-radius:40px;
+	padding:10px;
+	border:3px solid white;
+	
+	
+	 
+	
+}
+.search-box:hover > .search-txt{
+		width:240px;
+		padding: 0 6px;
+		
+}
+
+.search-box:hover > .search-btn{
+		background:white;
+		
+		
+}
+
+
+.search-btn{
+	color:black;
+	float:right;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background:white;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	transition:0.4s;
+	
+	
+}
+
+.search-txt{
+	border:none;
+	background:none;
+	outline:none;
+	float:left;
+	padding:0px;
+	color:white;
+	font-size:16px;
+	transition:0.4s;
+	line-height:40px;
+	width:240px;
+}
+
+h1{
+	margin-left:300px;
+	margin-top:20px;
+	background-color:white;
+	padding-left:250px;
+	
+	
+	
+}
+
+
+
+
+	
+	
